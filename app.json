@@ -1,8 +1,23 @@
 {
-    "name": "Genius-Userbot",
+    "name": "KAALWARE",
     "logo": "https://te.legra.ph/file/ceee32999a8250a1f7ebb.png",
-    "description": "An Advanced Premium Music & user Bot For Telegram ID.",
-    "keywords": ["music", "voice chat", "userbot"],
-    "repository": "https://github.com/GeniusBoi/Genius-Userbot",
-    "stack": "container"
+    "description": "An Advanced Premium Bot Telegram ID.",
+    "keywords": ["bot", "kaalware", "Kaal"],
+    "repository": "https://github.com/itzcriminalboi/BotRat",
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot Token",
+            "required": true
+        },
+        OWNER_ID": {
+            "description": "Your User Id",
+            "required": true
+        }
+    },
+    "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
 }
