@@ -10,7 +10,7 @@
             "description": "Your Bot Token",
             "required": true
         },
-        OWNER_ID": {
+        "OWNER_ID": {
             "description": "Your User Id",
             "required": true
         }
